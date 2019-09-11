@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    min-width: 50%;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* ---- Header NavBar ---- */
+
+header{
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: SteelBlue  ;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.logo{
+    color: White;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav ul li a:hover{    
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+#clearfix{
+    clear: both;
+}
+
+
+
+/* ---- Section CSS ---- */
+section{
+    position: relative;
+    background-color: white;    
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+section h2{
+    text-align: left;
+    color: steelblue;
+}
+
+table{
+    border-spacing: 10px;
+}
+
+.title-column,.title-row{
+    text-align: left;
+}
+table th{
+    font-weight: bold;
+}
+table td{
+    color: gray;
+    text-align: center;
+}
+
+/* ----Footer CSS ---- */
+footer {
+    position: relative;
+    background-color: #f0f0f0;
+    color: black;
+    text-align: left;   
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  /* ---- Fixing for small screens ---- */
+@media(max-width:1200px){
+    header{
+        margin: 20px;
+    }
+    section{
+        margin: 20px;
+    }
+    footer{
+        margin: 20px;
+    }
+}
+
+
+/* ---- Edit Movie Form CSS ---- */
+.edit-movie-form{
+    padding: 10px 10px 10px 0;
+}
+form label{
+    color: gray;
+    font-weight: bold;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+form div{
+    padding: 2px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.movie-gross-field , .movie-active-field , .movie-dateOfLaunch-field,.movie-genre-field , .movie-teaser-field{
+    padding: 25px 50px 25px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input[type="number"],input[type="radio"],input[type="date"],input[type="checkbox"],select{    
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.edit-movie-submit{
+    width: 15%;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  /* ---- Edit Movie Status CSS ---- */
+  .Edit-movie-status-text{
+      color: green;
+      font-weight: bold;
+  }
+
+  /* ---- Movie List Customer Notification CSS ---- */
+  .movie-list-customer-notification-text{
+      color: green;
+      text-align: center;
+      font-weight: bold;
+  }
+
+  /* ---- Favorites CSS ---- */
+  .number-of-favorties-text{
+      color: black;
+      font-weight: bold;
+  }
+
+  .number-of-favorties-value{
+      color: gray;
+  }
+
+  /* ---- Favorites Notification CSS ---- */
+  .Favorites-notification-text{
+      color: green;
+      text-align: center;
+      font-weight: bold;
+  }
+
+  /* ---- Login Form CSS ---- */
+  .login-form{
+      width: 600px;
+      margin: auto;
+      padding: 10px;
+  }
+  hr{
+      color: steelblue;
+  }
+
+  .login-form-submit{
+    width: 15%;
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  input[type=password]{
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
